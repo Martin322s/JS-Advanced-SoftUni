@@ -1,7 +1,6 @@
 window.addEventListener('load', solve);
 
 function solve() {
-
     const model = document.getElementById('model');
     const year = document.getElementById('year');
     const description = document.getElementById('description');
@@ -17,7 +16,6 @@ function solve() {
 
         if (model.value && description.value && year.value && price.value) {
             if (year.value >= 0 && price.value >= 0) {
-
                 let trElement = document.createElement('tr');
                 let tdModel = document.createElement('td');
                 let tdYear = document.createElement('td');
