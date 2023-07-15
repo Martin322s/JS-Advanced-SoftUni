@@ -1,9 +1,8 @@
 function roadRadar(speed, area) {
-
     let motorWayLimit = 130;
     let interStateLimit = 90;
-    let cityLimit = 50;
     let residentialLimit = 20;
+    let cityLimit = 50;
 
     if (area === 'motorway') {
         if (speed <= motorWayLimit) {
@@ -47,4 +46,3 @@ function roadRadar(speed, area) {
         }
     }
 }
-roadRadar();
