@@ -1,5 +1,4 @@
-(function () {
-
+function arrayExtension() {
     Array.prototype.last = function () {
         return this[this.length - 1];
     };
@@ -45,5 +44,4 @@
 
         return average;
     }
-        
-})();
+}

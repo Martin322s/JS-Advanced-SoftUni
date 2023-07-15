@@ -1,4 +1,4 @@
-function PersonAndTeacher() {
+function personAndTeacher() {
     class Person {
         constructor(name, email) {
             this.name = name;
@@ -8,7 +8,7 @@ function PersonAndTeacher() {
 
     class Teacher extends Person {
         constructor(name, email, subject) {
-            super(name, email)
+            super(name, email);
             this.subject = subject;
         }
     }

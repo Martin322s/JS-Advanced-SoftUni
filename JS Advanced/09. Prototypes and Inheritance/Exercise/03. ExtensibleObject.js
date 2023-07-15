@@ -10,6 +10,5 @@ function extensibleObject() {
             }
         }
     }
-
     return this;
 }
