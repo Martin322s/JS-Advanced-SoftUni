@@ -1,0 +1,1516 @@
+[
+    {
+        "name": "Bulgaria",
+        "topLevelDomain": [
+            ".bg"
+        ],
+        "alpha2Code": "BG",
+        "alpha3Code": "BGR",
+        "callingCodes": [
+            "359"
+        ],
+        "capital": "Sofia",
+        "altSpellings": [
+            "BG",
+            "Republic of Bulgaria",
+            "Република България"
+        ],
+        "subregion": "Eastern Europe",
+        "region": "Europe",
+        "population": 6927288,
+        "latlng": [
+            43.0,
+            25.0
+        ],
+        "demonym": "Bulgarian",
+        "area": 110879.0,
+        "gini": 41.3,
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "borders": [
+            "GRC",
+            "MKD",
+            "ROU",
+            "SRB",
+            "TUR"
+        ],
+        "nativeName": "България",
+        "numericCode": "100",
+        "flags": {
+            "svg": "https://flagcdn.com/bg.svg",
+            "png": "https://flagcdn.com/w320/bg.png"
+        },
+        "currencies": [
+            {
+                "code": "BGN",
+                "name": "Bulgarian lev",
+                "symbol": "лв"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "bg",
+                "iso639_2": "bul",
+                "name": "Bulgarian",
+                "nativeName": "български език"
+            }
+        ],
+        "translations": {
+            "br": "Bulgaria",
+            "pt": "Bulgária",
+            "nl": "Bulgarije",
+            "hr": "Bugarska",
+            "fa": "بلغارستان",
+            "de": "Bulgarien",
+            "es": "Bulgaria",
+            "fr": "Bulgarie",
+            "ja": "ブルガリア",
+            "it": "Bulgaria",
+            "hu": "Bulgária"
+        },
+        "flag": "https://flagcdn.com/bg.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "EU",
+                "name": "European Union"
+            }
+        ],
+        "cioc": "BUL",
+        "independent": true
+    },
+    [
+        {
+            "name": "Italy",
+            "topLevelDomain": [
+                ".it"
+            ],
+            "alpha2Code": "IT",
+            "alpha3Code": "ITA",
+            "callingCodes": [
+                "39"
+            ],
+            "capital": "Rome",
+            "altSpellings": [
+                "IT",
+                "Italian Republic",
+                "Repubblica italiana"
+            ],
+            "subregion": "Southern Europe",
+            "region": "Europe",
+            "population": 59554023,
+            "latlng": [
+                42.83333333,
+                12.83333333
+            ],
+            "demonym": "Italian",
+            "area": 301336.0,
+            "gini": 35.9,
+            "timezones": [
+                "UTC+01:00"
+            ],
+            "borders": [
+                "AUT",
+                "FRA",
+                "SMR",
+                "SVN",
+                "CHE",
+                "VAT"
+            ],
+            "nativeName": "Italia",
+            "numericCode": "380",
+            "flags": {
+                "svg": "https://flagcdn.com/it.svg",
+                "png": "https://flagcdn.com/w320/it.png"
+            },
+            "currencies": [
+                {
+                    "code": "EUR",
+                    "name": "Euro",
+                    "symbol": "€"
+                }
+            ],
+            "languages": [
+                {
+                    "iso639_1": "it",
+                    "iso639_2": "ita",
+                    "name": "Italian",
+                    "nativeName": "Italiano"
+                }
+            ],
+            "translations": {
+                "br": "Italia",
+                "pt": "Itália",
+                "nl": "Italië",
+                "hr": "Italija",
+                "fa": "ایتالیا",
+                "de": "Italien",
+                "es": "Italia",
+                "fr": "Italie",
+                "ja": "イタリア",
+                "it": "Italia",
+                "hu": "Olaszország"
+            },
+            "flag": "https://flagcdn.com/it.svg",
+            "regionalBlocs": [
+                {
+                    "acronym": "EU",
+                    "name": "European Union"
+                }
+            ],
+            "cioc": "ITA",
+            "independent": true
+        }
+    ],
+    [
+        {
+            "name": {
+                "common": "Namibia",
+                "official": "Republic of Namibia",
+                "nativeName": {
+                    "afr": {
+                        "official": "Republiek van Namibië",
+                        "common": "Namibië"
+                    },
+                    "deu": {
+                        "official": "Republik Namibia",
+                        "common": "Namibia"
+                    },
+                    "eng": {
+                        "official": "Republic of Namibia",
+                        "common": "Namibia"
+                    },
+                    "her": {
+                        "official": "Republic of Namibia",
+                        "common": "Namibia"
+                    },
+                    "hgm": {
+                        "official": "Republic of Namibia",
+                        "common": "Namibia"
+                    },
+                    "kwn": {
+                        "official": "Republic of Namibia",
+                        "common": "Namibia"
+                    },
+                    "loz": {
+                        "official": "Republic of Namibia",
+                        "common": "Namibia"
+                    },
+                    "ndo": {
+                        "official": "Republic of Namibia",
+                        "common": "Namibia"
+                    },
+                    "tsn": {
+                        "official": "Lefatshe la Namibia",
+                        "common": "Namibia"
+                    }
+                }
+            },
+            "tld": [
+                ".na"
+            ],
+            "cca2": "NA",
+            "ccn3": "516",
+            "cca3": "NAM",
+            "cioc": "NAM",
+            "independent": true,
+            "status": "officially-assigned",
+            "unMember": true,
+            "currencies": {
+                "NAD": {
+                    "name": "Namibian dollar",
+                    "symbol": "$"
+                },
+                "ZAR": {
+                    "name": "South African rand",
+                    "symbol": "R"
+                }
+            },
+            "idd": {
+                "root": "+2",
+                "suffixes": [
+                    "64"
+                ]
+            },
+            "capital": [
+                "Windhoek"
+            ],
+            "altSpellings": [
+                "NA",
+                "Namibië",
+                "Republic of Namibia"
+            ],
+            "region": "Africa",
+            "subregion": "Southern Africa",
+            "languages": {
+                "afr": "Afrikaans",
+                "deu": "German",
+                "eng": "English",
+                "her": "Herero",
+                "hgm": "Khoekhoe",
+                "kwn": "Kwangali",
+                "loz": "Lozi",
+                "ndo": "Ndonga",
+                "tsn": "Tswana"
+            },
+            "translations": {
+                "ara": {
+                    "official": "جمهورية ناميبيا",
+                    "common": "ناميبيا"
+                },
+                "bre": {
+                    "official": "Republik Namibia",
+                    "common": "Namibia"
+                },
+                "ces": {
+                    "official": "Namibijská republika",
+                    "common": "Namibie"
+                },
+                "cym": {
+                    "official": "Republic of Namibia",
+                    "common": "Namibia"
+                },
+                "deu": {
+                    "official": "Republik Namibia",
+                    "common": "Namibia"
+                },
+                "est": {
+                    "official": "Namiibia Vabariik",
+                    "common": "Namiibia"
+                },
+                "fin": {
+                    "official": "Namibian tasavalta",
+                    "common": "Namibia"
+                },
+                "fra": {
+                    "official": "République de Namibie",
+                    "common": "Namibie"
+                },
+                "hrv": {
+                    "official": "Republika Namibija",
+                    "common": "Namibija"
+                },
+                "hun": {
+                    "official": "Namíbiai Köztársaság",
+                    "common": "Namíbia"
+                },
+                "ita": {
+                    "official": "Repubblica di Namibia",
+                    "common": "Namibia"
+                },
+                "jpn": {
+                    "official": "ナミビア共和国",
+                    "common": "ナミビア"
+                },
+                "kor": {
+                    "official": "나미비아 공화국",
+                    "common": "나미비아"
+                },
+                "nld": {
+                    "official": "Republiek Namibië",
+                    "common": "Namibië"
+                },
+                "per": {
+                    "official": "جمهوری نامیبیا",
+                    "common": "نامیبیا"
+                },
+                "pol": {
+                    "official": "Republika Namibii",
+                    "common": "Namibia"
+                },
+                "por": {
+                    "official": "República da Namíbia",
+                    "common": "Namíbia"
+                },
+                "rus": {
+                    "official": "Республика Намибия",
+                    "common": "Намибия"
+                },
+                "slk": {
+                    "official": "Namíbijská republika",
+                    "common": "Namíbia"
+                },
+                "spa": {
+                    "official": "República de Namibia",
+                    "common": "Namibia"
+                },
+                "srp": {
+                    "official": "Република Намибија",
+                    "common": "Намибија"
+                },
+                "swe": {
+                    "official": "Republiken Namibia",
+                    "common": "Namibia"
+                },
+                "tur": {
+                    "official": "Namibya Cumhuriyeti",
+                    "common": "Namibya"
+                },
+                "urd": {
+                    "official": "جمہوریہ نمیبیا",
+                    "common": "نمیبیا"
+                },
+                "zho": {
+                    "official": "纳米比亚共和国",
+                    "common": "纳米比亚"
+                }
+            },
+            "latlng": [
+                -22.0,
+                17.0
+            ],
+            "landlocked": false,
+            "borders": [
+                "AGO",
+                "BWA",
+                "ZAF",
+                "ZMB"
+            ],
+            "area": 825615.0,
+            "demonyms": {
+                "eng": {
+                    "f": "Namibian",
+                    "m": "Namibian"
+                },
+                "fra": {
+                    "f": "Namibienne",
+                    "m": "Namibien"
+                }
+            },
+            "flag": "🇳🇦",
+            "maps": {
+                "googleMaps": "https://goo.gl/maps/oR1i8BFEYX3EY83WA",
+                "openStreetMaps": "https://www.openstreetmap.org/relation/195266"
+            },
+            "population": 2540916,
+            "gini": {
+                "2015": 59.1
+            },
+            "fifa": "NAM",
+            "car": {
+                "signs": [
+                    "NAM"
+                ],
+                "side": "left"
+            },
+            "timezones": [
+                "UTC+01:00"
+            ],
+            "continents": [
+                "Africa"
+            ],
+            "flags": {
+                "png": "https://flagcdn.com/w320/na.png",
+                "svg": "https://flagcdn.com/na.svg",
+                "alt": "The flag of Namibia features a white-edged red diagonal band that extends from the lower hoist-side corner to the upper fly-side corner of the field. Above and beneath this band are a blue and green triangle respectively. A gold sun with twelve triangular rays is situated on the hoist side of the upper triangle."
+            },
+            "coatOfArms": {
+                "png": "https://mainfacts.com/media/images/coats_of_arms/na.png",
+                "svg": "https://mainfacts.com/media/images/coats_of_arms/na.svg"
+            },
+            "startOfWeek": "monday",
+            "capitalInfo": {
+                "latlng": [
+                    -22.57,
+                    17.08
+                ]
+            }
+        },
+        {
+            "name": {
+                "common": "Belgium",
+                "official": "Kingdom of Belgium",
+                "nativeName": {
+                    "deu": {
+                        "official": "Königreich Belgien",
+                        "common": "Belgien"
+                    },
+                    "fra": {
+                        "official": "Royaume de Belgique",
+                        "common": "Belgique"
+                    },
+                    "nld": {
+                        "official": "Koninkrijk België",
+                        "common": "België"
+                    }
+                }
+            },
+            "tld": [
+                ".be"
+            ],
+            "cca2": "BE",
+            "ccn3": "056",
+            "cca3": "BEL",
+            "cioc": "BEL",
+            "independent": true,
+            "status": "officially-assigned",
+            "unMember": true,
+            "currencies": {
+                "EUR": {
+                    "name": "Euro",
+                    "symbol": "€"
+                }
+            },
+            "idd": {
+                "root": "+3",
+                "suffixes": [
+                    "2"
+                ]
+            },
+            "capital": [
+                "Brussels"
+            ],
+            "altSpellings": [
+                "BE",
+                "België",
+                "Belgie",
+                "Belgien",
+                "Belgique",
+                "Kingdom of Belgium",
+                "Koninkrijk België",
+                "Royaume de Belgique",
+                "Königreich Belgien"
+            ],
+            "region": "Europe",
+            "subregion": "Western Europe",
+            "languages": {
+                "deu": "German",
+                "fra": "French",
+                "nld": "Dutch"
+            },
+            "translations": {
+                "ara": {
+                    "official": "مملكة بلجيكا",
+                    "common": "بلجيكا"
+                },
+                "bre": {
+                    "official": "Rouantelezh Belgia",
+                    "common": "Belgia"
+                },
+                "ces": {
+                    "official": "Belgické království",
+                    "common": "Belgie"
+                },
+                "cym": {
+                    "official": "Teyrnas Gwlad Belg",
+                    "common": "Gwlad Belg"
+                },
+                "deu": {
+                    "official": "Königreich Belgien",
+                    "common": "Belgien"
+                },
+                "est": {
+                    "official": "Belgia Kuningriik",
+                    "common": "Belgia"
+                },
+                "fin": {
+                    "official": "Belgian kuningaskunta",
+                    "common": "Belgia"
+                },
+                "fra": {
+                    "official": "Royaume de Belgique",
+                    "common": "Belgique"
+                },
+                "hrv": {
+                    "official": "Kraljevina Belgija",
+                    "common": "Belgija"
+                },
+                "hun": {
+                    "official": "Belga Királyság",
+                    "common": "Belgium"
+                },
+                "ita": {
+                    "official": "Regno del Belgio",
+                    "common": "Belgio"
+                },
+                "jpn": {
+                    "official": "ベルギー王国",
+                    "common": "ベルギー"
+                },
+                "kor": {
+                    "official": "벨기에 왕국",
+                    "common": "벨기에"
+                },
+                "nld": {
+                    "official": "Koninkrijk België",
+                    "common": "België"
+                },
+                "per": {
+                    "official": "پادشاهی بلژیک",
+                    "common": "بلژیک"
+                },
+                "pol": {
+                    "official": "Królestwo Belgii",
+                    "common": "Belgia"
+                },
+                "por": {
+                    "official": "Reino da Bélgica",
+                    "common": "Bélgica"
+                },
+                "rus": {
+                    "official": "Королевство Бельгия",
+                    "common": "Бельгия"
+                },
+                "slk": {
+                    "official": "Belgické kráľovstvo",
+                    "common": "Belgicko"
+                },
+                "spa": {
+                    "official": "Reino de Bélgica",
+                    "common": "Bélgica"
+                },
+                "srp": {
+                    "official": "Краљевина Белгија",
+                    "common": "Белгија"
+                },
+                "swe": {
+                    "official": "Konungariket Belgien",
+                    "common": "Belgien"
+                },
+                "tur": {
+                    "official": "Belçika Krallığı",
+                    "common": "Belğika"
+                },
+                "urd": {
+                    "official": "مملکتِ بلجئیم",
+                    "common": "بلجئیم"
+                },
+                "zho": {
+                    "official": "比利时王国",
+                    "common": "比利时"
+                }
+            },
+            "latlng": [
+                50.83333333,
+                4.0
+            ],
+            "landlocked": false,
+            "borders": [
+                "FRA",
+                "DEU",
+                "LUX",
+                "NLD"
+            ],
+            "area": 30528.0,
+            "demonyms": {
+                "eng": {
+                    "f": "Belgian",
+                    "m": "Belgian"
+                },
+                "fra": {
+                    "f": "Belge",
+                    "m": "Belge"
+                }
+            },
+            "flag": "🇧🇪",
+            "maps": {
+                "googleMaps": "https://goo.gl/maps/UQQzat85TCtPRXAL8",
+                "openStreetMaps": "https://www.openstreetmap.org/relation/52411"
+            },
+            "population": 11555997,
+            "gini": {
+                "2018": 27.2
+            },
+            "fifa": "BEL",
+            "car": {
+                "signs": [
+                    "B"
+                ],
+                "side": "right"
+            },
+            "timezones": [
+                "UTC+01:00"
+            ],
+            "continents": [
+                "Europe"
+            ],
+            "flags": {
+                "png": "https://flagcdn.com/w320/be.png",
+                "svg": "https://flagcdn.com/be.svg",
+                "alt": "The flag of Belgium is composed of three equal vertical bands of black, yellow and red."
+            },
+            "coatOfArms": {
+                "png": "https://mainfacts.com/media/images/coats_of_arms/be.png",
+                "svg": "https://mainfacts.com/media/images/coats_of_arms/be.svg"
+            },
+            "startOfWeek": "monday",
+            "capitalInfo": {
+                "latlng": [
+                    50.83,
+                    4.33
+                ]
+            },
+            "postalCode": {
+                "format": "####",
+                "regex": "^(\\d{4})$"
+            }
+        },
+        {
+            "name": {
+                "common": "Germany",
+                "official": "Federal Republic of Germany",
+                "nativeName": {
+                    "deu": {
+                        "official": "Bundesrepublik Deutschland",
+                        "common": "Deutschland"
+                    }
+                }
+            },
+            "tld": [
+                ".de"
+            ],
+            "cca2": "DE",
+            "ccn3": "276",
+            "cca3": "DEU",
+            "cioc": "GER",
+            "independent": true,
+            "status": "officially-assigned",
+            "unMember": true,
+            "currencies": {
+                "EUR": {
+                    "name": "Euro",
+                    "symbol": "€"
+                }
+            },
+            "idd": {
+                "root": "+4",
+                "suffixes": [
+                    "9"
+                ]
+            },
+            "capital": [
+                "Berlin"
+            ],
+            "altSpellings": [
+                "DE",
+                "Federal Republic of Germany",
+                "Bundesrepublik Deutschland"
+            ],
+            "region": "Europe",
+            "subregion": "Western Europe",
+            "languages": {
+                "deu": "German"
+            },
+            "translations": {
+                "ara": {
+                    "official": "جمهورية ألمانيا الاتحادية",
+                    "common": "ألمانيا"
+                },
+                "bre": {
+                    "official": "Republik Kevreadel Alamagn",
+                    "common": "Alamagn"
+                },
+                "ces": {
+                    "official": "Spolková republika Německo",
+                    "common": "Německo"
+                },
+                "cym": {
+                    "official": "Federal Republic of Germany",
+                    "common": "Germany"
+                },
+                "deu": {
+                    "official": "Bundesrepublik Deutschland",
+                    "common": "Deutschland"
+                },
+                "est": {
+                    "official": "Saksamaa Liitvabariik",
+                    "common": "Saksamaa"
+                },
+                "fin": {
+                    "official": "Saksan liittotasavalta",
+                    "common": "Saksa"
+                },
+                "fra": {
+                    "official": "République fédérale d'Allemagne",
+                    "common": "Allemagne"
+                },
+                "hrv": {
+                    "official": "Njemačka Federativna Republika",
+                    "common": "Njemačka"
+                },
+                "hun": {
+                    "official": "Német Szövetségi Köztársaság",
+                    "common": "Németország"
+                },
+                "ita": {
+                    "official": "Repubblica federale di Germania",
+                    "common": "Germania"
+                },
+                "jpn": {
+                    "official": "ドイツ連邦共和国",
+                    "common": "ドイツ"
+                },
+                "kor": {
+                    "official": "독일 연방 공화국",
+                    "common": "독일"
+                },
+                "nld": {
+                    "official": "Bondsrepubliek Duitsland",
+                    "common": "Duitsland"
+                },
+                "per": {
+                    "official": "جمهوری فدرال آلمان",
+                    "common": "آلمان"
+                },
+                "pol": {
+                    "official": "Republika Federalna Niemiec",
+                    "common": "Niemcy"
+                },
+                "por": {
+                    "official": "República Federal da Alemanha",
+                    "common": "Alemanha"
+                },
+                "rus": {
+                    "official": "Федеративная Республика Германия",
+                    "common": "Германия"
+                },
+                "slk": {
+                    "official": "Nemecká spolková republika",
+                    "common": "Nemecko"
+                },
+                "spa": {
+                    "official": "República Federal de Alemania",
+                    "common": "Alemania"
+                },
+                "srp": {
+                    "official": "Савезна Република Немачка",
+                    "common": "Немачка"
+                },
+                "swe": {
+                    "official": "Förbundsrepubliken Tyskland",
+                    "common": "Tyskland"
+                },
+                "tur": {
+                    "official": "Almanya Federal Cumhuriyeti",
+                    "common": "Almanya"
+                },
+                "urd": {
+                    "official": "وفاقی جمہوریہ جرمنی",
+                    "common": "جرمنی"
+                },
+                "zho": {
+                    "official": "德意志联邦共和国",
+                    "common": "德国"
+                }
+            },
+            "latlng": [
+                51.0,
+                9.0
+            ],
+            "landlocked": false,
+            "borders": [
+                "AUT",
+                "BEL",
+                "CZE",
+                "DNK",
+                "FRA",
+                "LUX",
+                "NLD",
+                "POL",
+                "CHE"
+            ],
+            "area": 357114.0,
+            "demonyms": {
+                "eng": {
+                    "f": "German",
+                    "m": "German"
+                },
+                "fra": {
+                    "f": "Allemande",
+                    "m": "Allemand"
+                }
+            },
+            "flag": "🇩🇪",
+            "maps": {
+                "googleMaps": "https://goo.gl/maps/mD9FBMq1nvXUBrkv6",
+                "openStreetMaps": "https://www.openstreetmap.org/relation/51477"
+            },
+            "population": 83240525,
+            "gini": {
+                "2016": 31.9
+            },
+            "fifa": "GER",
+            "car": {
+                "signs": [
+                    "DY"
+                ],
+                "side": "right"
+            },
+            "timezones": [
+                "UTC+01:00"
+            ],
+            "continents": [
+                "Europe"
+            ],
+            "flags": {
+                "png": "https://flagcdn.com/w320/de.png",
+                "svg": "https://flagcdn.com/de.svg",
+                "alt": "The flag of Germany is composed of three equal horizontal bands of black, red and gold."
+            },
+            "coatOfArms": {
+                "png": "https://mainfacts.com/media/images/coats_of_arms/de.png",
+                "svg": "https://mainfacts.com/media/images/coats_of_arms/de.svg"
+            },
+            "startOfWeek": "monday",
+            "capitalInfo": {
+                "latlng": [
+                    52.52,
+                    13.4
+                ]
+            },
+            "postalCode": {
+                "format": "#####",
+                "regex": "^(\\d{5})$"
+            }
+        },
+        {
+            "name": {
+                "common": "Austria",
+                "official": "Republic of Austria",
+                "nativeName": {
+                    "bar": {
+                        "official": "Republik Österreich",
+                        "common": "Österreich"
+                    }
+                }
+            },
+            "tld": [
+                ".at"
+            ],
+            "cca2": "AT",
+            "ccn3": "040",
+            "cca3": "AUT",
+            "cioc": "AUT",
+            "independent": true,
+            "status": "officially-assigned",
+            "unMember": true,
+            "currencies": {
+                "EUR": {
+                    "name": "Euro",
+                    "symbol": "€"
+                }
+            },
+            "idd": {
+                "root": "+4",
+                "suffixes": [
+                    "3"
+                ]
+            },
+            "capital": [
+                "Vienna"
+            ],
+            "altSpellings": [
+                "AT",
+                "Osterreich",
+                "Oesterreich"
+            ],
+            "region": "Europe",
+            "subregion": "Central Europe",
+            "languages": {
+                "de": "German"
+            },
+            "translations": {
+                "ara": {
+                    "official": "جمهورية النمسا",
+                    "common": "النمسا"
+                },
+                "bre": {
+                    "official": "Republik Aostria",
+                    "common": "Aostria"
+                },
+                "ces": {
+                    "official": "Rakouská republika",
+                    "common": "Rakousko"
+                },
+                "cym": {
+                    "official": "Gweriniaeth Awstria",
+                    "common": "Awstria"
+                },
+                "deu": {
+                    "official": "Republik Österreich",
+                    "common": "Österreich"
+                },
+                "est": {
+                    "official": "Austria Vabariik",
+                    "common": "Austria"
+                },
+                "fin": {
+                    "official": "Itävallan tasavalta",
+                    "common": "Itävalta"
+                },
+                "fra": {
+                    "official": "République d'Autriche",
+                    "common": "Autriche"
+                },
+                "hrv": {
+                    "official": "Republika Austrija",
+                    "common": "Austrija"
+                },
+                "hun": {
+                    "official": "Ausztria",
+                    "common": "Ausztria"
+                },
+                "ita": {
+                    "official": "Repubblica d'Austria",
+                    "common": "Austria"
+                },
+                "jpn": {
+                    "official": "オーストリア共和国",
+                    "common": "オーストリア"
+                },
+                "kor": {
+                    "official": "오스트리아 공화국",
+                    "common": "오스트리아"
+                },
+                "nld": {
+                    "official": "Republiek Oostenrijk",
+                    "common": "Oostenrijk"
+                },
+                "per": {
+                    "official": "جمهوری اتریش",
+                    "common": "اتریش"
+                },
+                "pol": {
+                    "official": "Republika Austrii",
+                    "common": "Austria"
+                },
+                "por": {
+                    "official": "República da Áustria",
+                    "common": "Áustria"
+                },
+                "rus": {
+                    "official": "Австрийская Республика",
+                    "common": "Австрия"
+                },
+                "slk": {
+                    "official": "Rakúska republika",
+                    "common": "Rakúsko"
+                },
+                "spa": {
+                    "official": "República de Austria",
+                    "common": "Austria"
+                },
+                "srp": {
+                    "official": "Република Аустрија",
+                    "common": "Аустрија"
+                },
+                "swe": {
+                    "official": "Republiken Österrike",
+                    "common": "Österrike"
+                },
+                "tur": {
+                    "official": "Avusturya Cumhuriyeti",
+                    "common": "Avusturya"
+                },
+                "urd": {
+                    "official": "جمہوریہ آسٹریا",
+                    "common": "آسٹریا"
+                },
+                "zho": {
+                    "official": "奥地利共和国",
+                    "common": "奥地利"
+                }
+            },
+            "latlng": [
+                47.33333333,
+                13.33333333
+            ],
+            "landlocked": true,
+            "borders": [
+                "CZE",
+                "DEU",
+                "HUN",
+                "ITA",
+                "LIE",
+                "SVK",
+                "SVN",
+                "CHE"
+            ],
+            "area": 83871.0,
+            "demonyms": {
+                "eng": {
+                    "f": "Austrian",
+                    "m": "Austrian"
+                },
+                "fra": {
+                    "f": "Autrichienne",
+                    "m": "Autrichien"
+                }
+            },
+            "flag": "🇦🇹",
+            "maps": {
+                "googleMaps": "https://goo.gl/maps/pCWpWQhznHyRzQcu9",
+                "openStreetMaps": "https://www.openstreetmap.org/relation/16239"
+            },
+            "population": 8917205,
+            "gini": {
+                "2018": 30.8
+            },
+            "fifa": "AUT",
+            "car": {
+                "signs": [
+                    "A"
+                ],
+                "side": "right"
+            },
+            "timezones": [
+                "UTC+01:00"
+            ],
+            "continents": [
+                "Europe"
+            ],
+            "flags": {
+                "png": "https://flagcdn.com/w320/at.png",
+                "svg": "https://flagcdn.com/at.svg",
+                "alt": "The flag of Austria is composed of three equal horizontal bands of red, white and red."
+            },
+            "coatOfArms": {
+                "png": "https://mainfacts.com/media/images/coats_of_arms/at.png",
+                "svg": "https://mainfacts.com/media/images/coats_of_arms/at.svg"
+            },
+            "startOfWeek": "monday",
+            "capitalInfo": {
+                "latlng": [
+                    48.2,
+                    16.37
+                ]
+            },
+            "postalCode": {
+                "format": "####",
+                "regex": "^(\\d{4})$"
+            }
+        },
+        {
+            "name": {
+                "common": "Luxembourg",
+                "official": "Grand Duchy of Luxembourg",
+                "nativeName": {
+                    "deu": {
+                        "official": "Großherzogtum Luxemburg",
+                        "common": "Luxemburg"
+                    },
+                    "fra": {
+                        "official": "Grand-Duché de Luxembourg",
+                        "common": "Luxembourg"
+                    },
+                    "ltz": {
+                        "official": "Groussherzogtum Lëtzebuerg",
+                        "common": "Lëtzebuerg"
+                    }
+                }
+            },
+            "tld": [
+                ".lu"
+            ],
+            "cca2": "LU",
+            "ccn3": "442",
+            "cca3": "LUX",
+            "cioc": "LUX",
+            "independent": true,
+            "status": "officially-assigned",
+            "unMember": true,
+            "currencies": {
+                "EUR": {
+                    "name": "Euro",
+                    "symbol": "€"
+                }
+            },
+            "idd": {
+                "root": "+3",
+                "suffixes": [
+                    "52"
+                ]
+            },
+            "capital": [
+                "Luxembourg"
+            ],
+            "altSpellings": [
+                "LU",
+                "Grand Duchy of Luxembourg",
+                "Grand-Duché de Luxembourg",
+                "Großherzogtum Luxemburg",
+                "Groussherzogtum Lëtzebuerg"
+            ],
+            "region": "Europe",
+            "subregion": "Western Europe",
+            "languages": {
+                "deu": "German",
+                "fra": "French",
+                "ltz": "Luxembourgish"
+            },
+            "translations": {
+                "ara": {
+                    "official": "دوقية لوكسمبورغ",
+                    "common": "لوكسمبورغ"
+                },
+                "bre": {
+                    "official": "Dugelezh Veur Luksembourg",
+                    "common": "Luksembourg"
+                },
+                "ces": {
+                    "official": "Lucemburské velkovévodství",
+                    "common": "Lucembursko"
+                },
+                "cym": {
+                    "official": "Grand Duchy of Luxembourg",
+                    "common": "Luxembourg"
+                },
+                "deu": {
+                    "official": "Großherzogtum Luxemburg,",
+                    "common": "Luxemburg"
+                },
+                "est": {
+                    "official": "Luksemburgi Suurhertsogiriik",
+                    "common": "Luksemburg"
+                },
+                "fin": {
+                    "official": "Luxemburgin suurherttuakunta",
+                    "common": "Luxemburg"
+                },
+                "fra": {
+                    "official": "Grand-Duché de Luxembourg",
+                    "common": "Luxembourg"
+                },
+                "hrv": {
+                    "official": "Veliko Vojvodstvo Luksemburg",
+                    "common": "Luksemburg"
+                },
+                "hun": {
+                    "official": "Luxemburgi Nagyhercegség",
+                    "common": "Luxemburg"
+                },
+                "ita": {
+                    "official": "Granducato di Lussemburgo",
+                    "common": "Lussemburgo"
+                },
+                "jpn": {
+                    "official": "ルクセンブルク大公国",
+                    "common": "ルクセンブルク"
+                },
+                "kor": {
+                    "official": "룩셈부르크 대공국",
+                    "common": "룩셈부르크"
+                },
+                "nld": {
+                    "official": "Groothertogdom Luxemburg",
+                    "common": "Luxemburg"
+                },
+                "per": {
+                    "official": "دوک‌نشین لوکزامبورگ",
+                    "common": "لوکزامبورگ"
+                },
+                "pol": {
+                    "official": "Wielkie Księstwo Luksemburga",
+                    "common": "Luksemburg"
+                },
+                "por": {
+                    "official": "Grão-Ducado do Luxemburgo",
+                    "common": "Luxemburgo"
+                },
+                "rus": {
+                    "official": "Великое Герцогство Люксембург",
+                    "common": "Люксембург"
+                },
+                "slk": {
+                    "official": "Luxemburské veľkovojvodstvo",
+                    "common": "Luxembursko"
+                },
+                "spa": {
+                    "official": "Gran Ducado de Luxemburgo",
+                    "common": "Luxemburgo"
+                },
+                "srp": {
+                    "official": "Велико Војводство Луксембург",
+                    "common": "Луксембург"
+                },
+                "swe": {
+                    "official": "Storhertigdömet Luxemburg",
+                    "common": "Luxemburg"
+                },
+                "tur": {
+                    "official": "Lüksemburg Büyük Dükalığı",
+                    "common": "Lüksemburg"
+                },
+                "urd": {
+                    "official": "دوقیہ کبیرلکسمبرگ",
+                    "common": "لکسمبرگ"
+                },
+                "zho": {
+                    "official": "卢森堡大公国",
+                    "common": "卢森堡"
+                }
+            },
+            "latlng": [
+                49.75,
+                6.16666666
+            ],
+            "landlocked": true,
+            "borders": [
+                "BEL",
+                "FRA",
+                "DEU"
+            ],
+            "area": 2586.0,
+            "demonyms": {
+                "eng": {
+                    "f": "Luxembourger",
+                    "m": "Luxembourger"
+                },
+                "fra": {
+                    "f": "Luxembourgeoise",
+                    "m": "Luxembourgeois"
+                }
+            },
+            "flag": "🇱🇺",
+            "maps": {
+                "googleMaps": "https://goo.gl/maps/L6b2AgndgHprt2Ko9",
+                "openStreetMaps": "https://www.openstreetmap.org/relation/2171347#map=10/49.8167/6.1335"
+            },
+            "population": 632275,
+            "gini": {
+                "2018": 35.4
+            },
+            "fifa": "LUX",
+            "car": {
+                "signs": [
+                    "L"
+                ],
+                "side": "right"
+            },
+            "timezones": [
+                "UTC+01:00"
+            ],
+            "continents": [
+                "Europe"
+            ],
+            "flags": {
+                "png": "https://flagcdn.com/w320/lu.png",
+                "svg": "https://flagcdn.com/lu.svg",
+                "alt": "The flag of Luxembourg is composed of three equal horizontal bands of red, white and light blue."
+            },
+            "coatOfArms": {
+                "png": "https://mainfacts.com/media/images/coats_of_arms/lu.png",
+                "svg": "https://mainfacts.com/media/images/coats_of_arms/lu.svg"
+            },
+            "startOfWeek": "monday",
+            "capitalInfo": {
+                "latlng": [
+                    49.6,
+                    6.12
+                ]
+            },
+            "postalCode": {
+                "format": "####",
+                "regex": "^(\\d{4})$"
+            }
+        },
+        {
+            "name": {
+                "common": "Liechtenstein",
+                "official": "Principality of Liechtenstein",
+                "nativeName": {
+                    "deu": {
+                        "official": "Fürstentum Liechtenstein",
+                        "common": "Liechtenstein"
+                    }
+                }
+            },
+            "tld": [
+                ".li"
+            ],
+            "cca2": "LI",
+            "ccn3": "438",
+            "cca3": "LIE",
+            "cioc": "LIE",
+            "independent": true,
+            "status": "officially-assigned",
+            "unMember": true,
+            "currencies": {
+                "CHF": {
+                    "name": "Swiss franc",
+                    "symbol": "Fr"
+                }
+            },
+            "idd": {
+                "root": "+4",
+                "suffixes": [
+                    "23"
+                ]
+            },
+            "capital": [
+                "Vaduz"
+            ],
+            "altSpellings": [
+                "LI",
+                "Principality of Liechtenstein",
+                "Fürstentum Liechtenstein"
+            ],
+            "region": "Europe",
+            "subregion": "Western Europe",
+            "languages": {
+                "deu": "German"
+            },
+            "translations": {
+                "ara": {
+                    "official": "إمارة ليختنشتاين",
+                    "common": "ليختنشتاين"
+                },
+                "bre": {
+                    "official": "Priñselezh Liechtenstein",
+                    "common": "Liechtenstein"
+                },
+                "ces": {
+                    "official": "Knížectví Lichtenštejnské",
+                    "common": "Lichtenštejnsko"
+                },
+                "cym": {
+                    "official": "Principality of Liechtenstein",
+                    "common": "Liechtenstein"
+                },
+                "deu": {
+                    "official": "Fürstentum Liechtenstein",
+                    "common": "Liechtenstein"
+                },
+                "est": {
+                    "official": "Liechtensteini Vürstiriik",
+                    "common": "Liechtenstein"
+                },
+                "fin": {
+                    "official": "Liechensteinin ruhtinaskunta",
+                    "common": "Liechenstein"
+                },
+                "fra": {
+                    "official": "Principauté du Liechtenstein",
+                    "common": "Liechtenstein"
+                },
+                "hrv": {
+                    "official": "Kneževina Lihtenštajn",
+                    "common": "Lihtenštajn"
+                },
+                "hun": {
+                    "official": "Liechtensteini Hercegség",
+                    "common": "Liechtenstein"
+                },
+                "ita": {
+                    "official": "Principato del Liechtenstein",
+                    "common": "Liechtenstein"
+                },
+                "jpn": {
+                    "official": "リヒテンシュタイン公国",
+                    "common": "リヒテンシュタイン"
+                },
+                "kor": {
+                    "official": "리히텐슈타인 공국",
+                    "common": "리히텐슈타인"
+                },
+                "nld": {
+                    "official": "Vorstendom Liechtenstein",
+                    "common": "Liechtenstein"
+                },
+                "per": {
+                    "official": "شاهزاده‌نشین لیختن‌اشتاین",
+                    "common": "لیختن‌اشتاین"
+                },
+                "pol": {
+                    "official": "Księstwo Liechtensteinu",
+                    "common": "Liechtenstein"
+                },
+                "por": {
+                    "official": "Principado de Liechtenstein",
+                    "common": "Liechtenstein"
+                },
+                "rus": {
+                    "official": "Княжество Лихтенштейн",
+                    "common": "Лихтенштейн"
+                },
+                "slk": {
+                    "official": "Lichtenštajnské kniežatstvo",
+                    "common": "Lichtenštajnsko"
+                },
+                "spa": {
+                    "official": "Principado de Liechtenstein",
+                    "common": "Liechtenstein"
+                },
+                "srp": {
+                    "official": "Кнежевина Лихтенштајн",
+                    "common": "Лихтенштајн"
+                },
+                "swe": {
+                    "official": "Furstendömet Liechtenstein",
+                    "common": "Liechtenstein"
+                },
+                "tur": {
+                    "official": "Lihtenştayn Prensliği",
+                    "common": "Lihtenştayn"
+                },
+                "urd": {
+                    "official": "امارات لیختینستائن",
+                    "common": "لیختینستائن"
+                },
+                "zho": {
+                    "official": "列支敦士登公国",
+                    "common": "列支敦士登"
+                }
+            },
+            "latlng": [
+                47.26666666,
+                9.53333333
+            ],
+            "landlocked": true,
+            "borders": [
+                "AUT",
+                "CHE"
+            ],
+            "area": 160.0,
+            "demonyms": {
+                "eng": {
+                    "f": "Liechtensteiner",
+                    "m": "Liechtensteiner"
+                },
+                "fra": {
+                    "f": "Liechtensteinoise",
+                    "m": "Liechtensteinois"
+                }
+            },
+            "flag": "🇱🇮",
+            "maps": {
+                "googleMaps": "https://goo.gl/maps/KNuHeiJzAPodwM7y6",
+                "openStreetMaps": "https://www.openstreetmap.org/relation/1155955"
+            },
+            "population": 38137,
+            "fifa": "LIE",
+            "car": {
+                "signs": [
+                    "FL"
+                ],
+                "side": "right"
+            },
+            "timezones": [
+                "UTC+01:00"
+            ],
+            "continents": [
+                "Europe"
+            ],
+            "flags": {
+                "png": "https://flagcdn.com/w320/li.png",
+                "svg": "https://flagcdn.com/li.svg",
+                "alt": "The flag of Liechtenstein is composed of two equal horizontal bands of blue and red, with a golden-yellow crown on the hoist side of the blue band."
+            },
+            "coatOfArms": {
+                "png": "https://mainfacts.com/media/images/coats_of_arms/li.png",
+                "svg": "https://mainfacts.com/media/images/coats_of_arms/li.svg"
+            },
+            "startOfWeek": "monday",
+            "capitalInfo": {
+                "latlng": [
+                    47.13,
+                    9.52
+                ]
+            },
+            "postalCode": {
+                "format": "####",
+                "regex": "^(\\d{4})$"
+            }
+        }
+    ]
+]
