@@ -1,5 +1,4 @@
-function ticTacToe(input) {
-    
+function tictactoe(input) {
     let arr = [
         [false, false, false],
         [false, false, false],
@@ -80,13 +79,3 @@ function ticTacToe(input) {
         }
     }
 }
-ticTacToe(["0 1",
-"0 0",
-"0 2", 
-"2 0",
-"1 0",
-"1 1",
-"1 2",
-"2 2",
-"2 1",
-"0 0"]);

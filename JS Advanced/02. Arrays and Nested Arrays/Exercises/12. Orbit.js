@@ -1,11 +1,10 @@
 function orbit(input) {
-
+    let matrix = [];
     let rows = input[0];
     let cols = input[1];
     let starRow = input[2];
     let starCol = input[3];
-
-    let matrix = [];
+    
     for (let i = 0; i < rows; i++) {
         matrix.push([]);
     }
@@ -18,4 +17,3 @@ function orbit(input) {
 
     console.log(matrix.map(row => row.join(" ")).join("\n"));
 }
-orbit();

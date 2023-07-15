@@ -1,5 +1,4 @@
-function magicMatrixes(matrix) {
-    
+function magicMatrices(matrix) {
     for (let i = 0; i < matrix.length - 1; i++) {
         let sumROne = matrix[i].reduce((a, b) => a + b, 0);
         let sumRTwo = matrix[i + 1].reduce((a, b) => a + b, 0);
@@ -18,4 +17,3 @@ function magicMatrixes(matrix) {
 
     return true;
 }
-magicMatrixes();

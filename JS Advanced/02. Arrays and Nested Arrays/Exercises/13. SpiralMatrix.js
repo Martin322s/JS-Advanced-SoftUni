@@ -1,5 +1,4 @@
 function spiralMatrix(n) {
-
     let total = n * n;
     let result = [];
 
@@ -21,6 +20,7 @@ function spiralMatrix(n) {
             result[x][y] = i;
             y++;
         }
+
         y--;
         x++;
 
@@ -29,6 +29,7 @@ function spiralMatrix(n) {
             result[x][y] = i;
             x++;
         }
+
         x--;
         y--;
 
@@ -47,11 +48,10 @@ function spiralMatrix(n) {
             result[x][y] = i;
             x--;
         }
-        
+
         x++;
         y++;
     }
     
     result.forEach(row => console.log(row.join(' ')));
 }
-spiralMatrix();
