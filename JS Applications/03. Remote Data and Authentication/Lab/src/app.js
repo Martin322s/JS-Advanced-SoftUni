@@ -92,3 +92,4 @@ if (serializedUser?.accessToken) {
     guestNavigation.forEach(x => x.style.display = "inline");
     userNavigation.forEach(x => x.style.display = "none");
 }
+
