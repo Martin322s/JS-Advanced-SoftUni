@@ -81,5 +81,14 @@ function e(type, attributes, ...content) {
     return result;
 }
 
-// const serializedUser = JSON.parse(localStorage.getItem('user'));
-// const guestNavigation = 
+const serializedUser = JSON.parse(localStorage.getItem('user'));
+const guestNavigation = Array.from(document.querySelectorAll('#guest'));
+const userNavigation = Array.from(document.querySelectorAll('#user'));
+
+if (serializedUser?.accessToken) {
+    guestNavigation.forEach(x => x.style.display = "none");
+    userNavigation.forEach(x => x.style.display = "inline");
+} else {
+    guestNavigation.forEach(x => x.style.display = "inline");
+    userNavigation.forEach(x => x.style.display = "none");
+}
