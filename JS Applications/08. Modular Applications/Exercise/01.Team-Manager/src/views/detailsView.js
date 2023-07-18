@@ -1,6 +1,6 @@
 import { html } from "../../node_modules/lit-html/lit-html.js";
 
-const teamHomeView = () => html`
+const detailsView = () => html`
     <section id="team-home">
         <article class="layout">
             <img src="./assets/rocket.png" class="team-logo left-col">
@@ -20,8 +20,14 @@ const teamHomeView = () => html`
                 <h3>Members</h3>
                 <ul class="tm-members">
                     <li>My Username</li>
-                    <li>James<a href="#" class="tm-control action">Remove from team</a></li>
-                    <li>Meowth<a href="#" class="tm-control action">Remove from team</a></li>
+                    <li>
+                        James
+                        <a href="#" class="tm-control action">Remove from team</a>
+                    </li>
+                    <li>
+                        Meowth
+                        <a href="#" class="tm-control action">Remove from team</a>
+                    </li>
                 </ul>
             </div>
             <div class="pad-large">
@@ -43,6 +49,6 @@ const teamHomeView = () => html`
     </section>
 `;
 
-export const renderTeamHome = (ctx) => {
-    ctx.mainRender(teamHomeView());
+export const renderDetails = (ctx) => {
+    ctx.mainRender(detailsView());
 }
