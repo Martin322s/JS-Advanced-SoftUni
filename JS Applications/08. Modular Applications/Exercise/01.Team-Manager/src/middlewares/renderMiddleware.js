@@ -1,6 +1,6 @@
 import { render } from '../../node_modules/lit-html/lit-html.js';
 
-const mainElement = document.getElementById('main');
+const mainElement = document.getElementById('root');
 
 function renderContent(template) {
     render(template, mainElement);
