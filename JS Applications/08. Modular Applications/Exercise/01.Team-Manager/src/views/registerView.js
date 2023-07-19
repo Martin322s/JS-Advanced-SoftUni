@@ -16,7 +16,7 @@ const registerView = () => html`
             </form>
             <footer class="pad-small">
                 Already have an account? 
-                <a href="#" class="invert">Sign in here</a>
+                <a href="/login" class="invert">Sign in here</a>
             </footer>
         </article>
     </section>
