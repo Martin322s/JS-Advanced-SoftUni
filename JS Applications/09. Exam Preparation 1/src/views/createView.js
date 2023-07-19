@@ -40,5 +40,5 @@ const createView = () => html`
 `;
 
 export const renderCreate = (ctx) => {
-    context.mainRender(createView());
+    ctx.mainRender(createView());
 };

@@ -44,3 +44,7 @@ const dashboardView = () => html`
     <!-- Display an h2 if there are no posts -->
     <h2>No fruit info yet.</h2>
 `;
+
+export const renderDashboard = (ctx) => {
+    ctx.mainRender(dashboardView());
+};
