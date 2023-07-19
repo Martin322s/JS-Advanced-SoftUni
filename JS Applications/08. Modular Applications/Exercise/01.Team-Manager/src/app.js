@@ -20,4 +20,4 @@ page('/details', renderDetails)
 // page('/logout');
 
 page.start();
-// changeNav();
+changeNav();

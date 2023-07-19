@@ -1,4 +1,7 @@
-export function registerSubmit(ev) {
+import { registerUser } from "./user-api-calls.js";
+import { changeNav } from "../middlewares/renderMiddleware.js";
+
+export function registerSubmit(ev, ctx) {
     ev.preventDefault();
 
     const formData = new FormData(ev.currentTarget);
@@ -15,6 +18,11 @@ export function registerSubmit(ev) {
     };
 
     if (username.length >= 3 && password.length >= 3) {
-        console.log('submitted');
+        registerUser(data)
+            .then(user => {
+                localStorage.setItem('user', JSON.stringify(user));
+                ctx.page.redirect('/');
+                changeNav();
+            });
     }
 }

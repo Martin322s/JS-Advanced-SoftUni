@@ -1,7 +1,7 @@
 import { html } from "../../node_modules/lit-html/lit-html.js";
 import { registerSubmit } from "../services/submit-handlers.js";
 
-const registerView = () => html`
+const registerView = (ctx) => html`
     <section id="register">
         <article class="narrow">
             <header class="pad-med">
@@ -10,9 +10,8 @@ const registerView = () => html`
             <form 
                 id="register-form" 
                 class="main-form pad-large" 
-                @submit=${(ev) => registerSubmit(ev)}
+                @submit=${(ev) => registerSubmit(ev, ctx)}
             >
-                <div class="error">Error message.</div>
                 <label>E-mail: <input type="email" name="email"></label>
                 <label>Username: <input type="text" name="username"></label>
                 <label>Password: <input type="password" name="password"></label>
@@ -28,5 +27,5 @@ const registerView = () => html`
 `;
 
 export const renderRegister = (ctx) => {
-    ctx.mainRender(registerView());
+    ctx.mainRender(registerView(ctx));
 }
