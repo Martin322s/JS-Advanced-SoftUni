@@ -29,3 +29,7 @@ const searchView = () => html`
         </div>
     </section>
 `;
+
+export const renderSearch = (ctx) => {
+    ctx.mainRender(searchView());
+};
