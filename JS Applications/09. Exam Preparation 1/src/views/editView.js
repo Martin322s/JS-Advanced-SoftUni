@@ -38,3 +38,7 @@ const editView = () => html`
         </div>
     </section>
 `;
+
+export const renderEdit = (ctx) => {
+    ctx.mainRender(editView());
+};
