@@ -33,3 +33,5 @@ export function changeNav() {
         guestView.forEach(x => x.style.display = "inline");
     }
 }
+
+export const getToken = () => JSON.parse(localStorage.getItem('user'))?.accessToken;

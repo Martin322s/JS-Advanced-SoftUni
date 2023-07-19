@@ -12,12 +12,17 @@ export async function registerUser(userData) {
     return await res.json();
 }
 
-export function logoutUser(token) {
+export function logoutUser(ctx) {
+    const token = JSON.parse(localStorage.getItem('user'))?.accessToken;
+
     fetch(`${baseUrl}/logout`, {
         method: 'GET',
         headers: {
             'X-Authorization': token
         }
     })
-        .then(() => localStorage.clear());
+        .then(() => {
+            localStorage.clear();
+            ctx.page.redirect('/');
+        });
 }

@@ -22,3 +22,4 @@ page('/logout', logoutUser);
 
 page.start();
 changeNav();
+
