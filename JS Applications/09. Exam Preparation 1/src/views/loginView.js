@@ -15,3 +15,7 @@ const loginView = () => html`
         </div>
     </section>
 `;
+
+export const renderLogin = (ctx) => {
+    ctx.mainRender(loginView());
+};
