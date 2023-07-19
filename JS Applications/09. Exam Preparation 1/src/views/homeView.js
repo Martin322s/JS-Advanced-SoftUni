@@ -6,3 +6,7 @@ const homeView = () => html`
         <img src="../../images/pexels-pixabay-161559-dImkWBDHz-transformed (1).png" alt="home" />
     </section>
 `;
+
+export const renderHome = (ctx) => {
+    ctx.mainRender(homeView());
+};
