@@ -1,4 +1,5 @@
 import { html } from "../../node_modules/lit-html/lit-html.js";
+import { registerSubmit } from "../services/submit-handlers.js";
 
 const registerView = () => html`
     <section id="register">
@@ -6,9 +7,13 @@ const registerView = () => html`
             <header class="pad-med">
                 <h1>Register</h1>
             </header>
-            <form id="register-form" class="main-form pad-large">
+            <form 
+                id="register-form" 
+                class="main-form pad-large" 
+                @submit=${(ev) => registerSubmit(ev)}
+            >
                 <div class="error">Error message.</div>
-                <label>E-mail: <input type="text" name="email"></label>
+                <label>E-mail: <input type="email" name="email"></label>
                 <label>Username: <input type="text" name="username"></label>
                 <label>Password: <input type="password" name="password"></label>
                 <label>Repeat: <input type="password" name="repass"></label>

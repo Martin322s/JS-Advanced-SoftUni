@@ -28,6 +28,17 @@ h2 {
     border: 1px solid #4f6457;
 }
 
+.main-form input[type="email"] {
+    padding: 4px 8px;
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #4f6457;
+}
+
 .main-form textarea {
     display: block;
     border: 1px solid #4f6457;
