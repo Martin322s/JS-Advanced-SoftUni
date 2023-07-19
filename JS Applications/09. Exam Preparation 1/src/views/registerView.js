@@ -29,3 +29,7 @@ const registerView = () => html`
         </div>
     </section>
 `;
+
+export const renderRegister = (ctx) => {
+    ctx.mainRender(registerView());
+};
