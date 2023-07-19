@@ -1,6 +1,6 @@
 import { html } from "../../node_modules/lit-html/lit-html.js";
 
-const homeView = () => html`
+const homeView = (token) => html`
     <section id="home">
         <article class="hero layout">
             <img src="./assets/team.png" class="left-col pad-med">
@@ -8,7 +8,7 @@ const homeView = () => html`
                 <h2>Welcome to Team Manager!</h2>
                 <p>Want to organize your peers? Create and manage a team for free.</p>
                 <p>Looking for a team to join? Browse our communities and find like-minded people!</p>
-                <a href="/register" class="action cta">Sign Up Now</a>
+                ${token ? null : html`<a href="/register" class="action cta">Sign Up Now</a>`}
                 <a href="/browse-teams" class="action cta">Browse Teams</a>
             </div>
         </article>
@@ -16,5 +16,6 @@ const homeView = () => html`
 `;
 
 export const renderHome = (ctx) => {
-    ctx.mainRender(homeView());
+    const accessToken = JSON.parse(localStorage.getItem('user'))?.accessToken;
+    ctx.mainRender(homeView(accessToken));
 }

@@ -9,5 +9,15 @@ export async function registerUser(userData) {
         body: JSON.stringify(userData)
     });
 
-    return await res.json(); 
+    return await res.json();
+}
+
+export function logoutUser(token) {
+    fetch(`${baseUrl}/logout`, {
+        method: 'GET',
+        headers: {
+            'X-Authorization': token
+        }
+    })
+        .then(() => localStorage.clear());
 }

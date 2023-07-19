@@ -7,6 +7,7 @@ import { renderLogin } from "./views/loginView.js";
 import { renderRegister } from "./views/registerView.js";
 import { renderCreate } from "./views/createView.js";
 import { renderDetails } from "./views/detailsView.js";
+import { logoutUser } from "./services/user-api-calls.js";
 
 page(renderTemplate);
 
@@ -17,7 +18,7 @@ page('/login', renderLogin);
 page('/register', renderRegister);
 page('/create', renderCreate);
 page('/details', renderDetails)
-// page('/logout');
+page('/logout', logoutUser);
 
 page.start();
 changeNav();
