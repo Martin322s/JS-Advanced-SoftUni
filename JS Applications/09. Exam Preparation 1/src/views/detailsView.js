@@ -36,3 +36,7 @@ const detailsView = () => html`
         </div>
     </section>
 `;
+
+export const renderDetails = (ctx) => {
+    ctx.mainRender(detailsView());
+};
