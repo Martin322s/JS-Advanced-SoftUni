@@ -399,8 +399,7 @@ describe("E2E tests", function () {
         "#details-wrapper #info-wrapper #details-description p",
         (t) => t.map((s) => s.textContent)
       );
-        console.log(nutrition);
-        console.log(description);
+      
       expect(name).to.contains(data.name);
       expect(nutrition[0]).to.contains(data.nutrition);
       expect(description[0]).to.contains(data.description);

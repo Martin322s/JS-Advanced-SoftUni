@@ -9,6 +9,7 @@ import { renderSearch } from './views/searchView.js';
 import { renderDetails } from './views/detailsView.js';
 import { renderEdit } from './views/editView.js';
 import { logoutUser } from './services/authService.js';
+import { deleteFruit } from './services/fruitService.js';
 
 page(renderTemplate);
 
@@ -21,7 +22,7 @@ page('/logout', logout);
 page('/search', renderSearch);
 page('/details/:fruitId', renderDetails);
 page('/edit/:fruitId', renderEdit);
-page('/delete/:fruitId', renderDetails);
+page('/delete/:fruitId', del);
 
 page.start();
 
@@ -36,4 +37,14 @@ function logout(ctx) {
             ctx.page.redirect('/');
             changeNav();
         });
+}
+
+function del(ctx) {
+    const token = JSON.parse(localStorage.getItem('user')).accessToken;
+    const confirmation = confirm('Are you sure you want to delete?');
+
+    if (confirmation) {
+        deleteFruit(token, ctx.params.fruitId)
+            .then(() => ctx.page.redirect('/dashboard'));
+    }
 }

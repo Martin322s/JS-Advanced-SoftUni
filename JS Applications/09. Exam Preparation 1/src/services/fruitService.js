@@ -29,3 +29,12 @@ export const editFruit = async (data, token, fruitId) => {
 
     return await res.json();
 };
+
+export const deleteFruit = async (token, fruitId) => {
+    await fetch(`${baseUrl}/fruits/${fruitId}`, {
+        method: 'DELETE',
+        headers: {
+            'X-Authorization': token
+        }
+    });
+}
