@@ -25,14 +25,10 @@ export const loginUser = async (userData) => {
 };
 
 export const logoutUser = (token, ctx) => {
-    fetch(`${baseUrl}/logout`, {
+    return fetch(`${baseUrl}/logout`, {
         method: 'GET',
         headers: {
             'X-Authorization': token
         }
-    })
-        .then(() => {
-            localStorage.clear();
-            ctx.page.redirect('/');
-        });
+    });
 };

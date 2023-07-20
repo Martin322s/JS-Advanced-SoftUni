@@ -22,8 +22,8 @@ export const isAuth = () => {
 }
 
 export function changeNav() {
-    const userView = document.querySelectorAll("#user");
-    const guestView = document.querySelectorAll("#guest");
+    const userView = document.querySelectorAll(".user");
+    const guestView = document.querySelectorAll(".guest");
 
     if (isAuth()) {
         userView.forEach(x => x.style.display = "inline");

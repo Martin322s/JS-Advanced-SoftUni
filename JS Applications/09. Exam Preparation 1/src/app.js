@@ -1,5 +1,5 @@
 import page from '../node_modules/page/page.mjs';
-import { renderTemplate } from './middlewares/middleware.js';
+import { changeNav, renderTemplate } from './middlewares/middleware.js';
 import { renderHome } from './views/homeView.js';
 import { renderDashboard } from './views/dashboardView.js';
 import { renderCreate } from './views/createView.js';
@@ -15,7 +15,20 @@ page('/dashboard', renderDashboard);
 page('/create', renderCreate);
 page('/register', renderRegister);
 page('/login', renderLogin);
-page('/logout', logoutUser);
+page('/logout', logout);
 page('/search', renderSearch);
 
 page.start();
+
+changeNav();
+
+function logout(ctx) {
+    const token = JSON.parse(localStorage.getItem('user'))?.accessToken;
+
+    logoutUser(token, ctx)
+        .then(() => {
+            localStorage.clear();
+            ctx.page.redirect('/');
+            changeNav();
+        });
+}
