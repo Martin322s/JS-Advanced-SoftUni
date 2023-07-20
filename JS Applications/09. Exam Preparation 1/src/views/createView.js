@@ -1,10 +1,11 @@
 import { html } from '../../node_modules/lit-html/lit-html.js';
+import { createFruit } from '../services/fruitService.js';
 
-const createView = () => html`
+const createView = (ctx) => html`
     <section id="create">
         <div class="form">
             <h2>Add Fruit</h2>
-            <form class="create-form">
+            <form class="create-form" @submit=${(ev) => submit(ev, ctx)}>
                 <input 
                     type="text" 
                     name="name" 
@@ -40,5 +41,31 @@ const createView = () => html`
 `;
 
 export const renderCreate = (ctx) => {
-    ctx.mainRender(createView());
+    ctx.mainRender(createView(ctx));
 };
+
+function submit(ev, ctx) {
+    ev.preventDefault();
+
+    const formData = new FormData(ev.currentTarget);
+    const name = formData.get('name');
+    const imageUrl = formData.get('imageUrl');
+    const description = formData.get('description');
+    const nutrition = formData.get('nutrition');
+
+    const data = {
+        name,
+        imageUrl,
+        description,
+        nutrition
+    };
+
+    const token = JSON.parse(localStorage.getItem('user')).accessToken;
+
+    if (!Object.values(data).some(x => x === '')) {
+        createFruit(data, token)
+            .then(() => ctx.page.redirect('/dashboard'))
+    } else {
+        alert('All fields are required!');
+    }
+}
