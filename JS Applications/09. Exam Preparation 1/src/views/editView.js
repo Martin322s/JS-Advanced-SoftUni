@@ -1,11 +1,11 @@
 import { html } from '../../node_modules/lit-html/lit-html.js';
-import { getOne } from '../services/fruitService.js';
+import { editFruit, getOne } from '../services/fruitService.js';
 
-const editView = (fruit, ctx) => html`
+const editView = (fruit, ctx, fruitId) => html`
     <section id="edit">
         <div class="form">
             <h2>Edit Fruit</h2>
-            <form class="edit-form" @submit=${(ev) => submit(ev, ctx, fruit._id)}>
+            <form class="edit-form" @submit=${(ev) => submit(ev, ctx, fruitId)}>
                 <input 
                     type="text" 
                     name="name" 
@@ -47,10 +47,31 @@ const editView = (fruit, ctx) => html`
 export const renderEdit = async (ctx) => {
     const fruitId = ctx.params.fruitId;
     const data = await getOne(fruitId);
-    console.log(data);
-    ctx.mainRender(editView(data));
+    ctx.mainRender(editView(data, ctx, fruitId));
 };
 
 function submit(ev, ctx, fruitId) {
     ev.preventDefault();
+
+    const formData = new FormData(ev.currentTarget);
+    const name = formData.get('name');
+    const imageUrl = formData.get('imageUrl');
+    const description = formData.get('description');
+    const nutrition = formData.get('nutrition');
+
+    const token = JSON.parse(localStorage.getItem('user')).accessToken;
+
+    const data = {
+        name,
+        imageUrl,
+        description,
+        nutrition
+    };
+
+    if (!Object.values(data).some(x => x === '')) {
+        editFruit(data, token, fruitId)
+            .then((newFruit) => console.log(newFruit));
+    } else {
+        alert('All fields are required!');
+    }
 }
