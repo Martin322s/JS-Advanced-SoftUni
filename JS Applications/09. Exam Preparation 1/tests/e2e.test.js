@@ -392,17 +392,18 @@ describe("E2E tests", function () {
       );
      
       const nutrition = await page.$$eval(
-        "#details-wrapper #info-wrapper #details-description #details-nutrition",
+        "#details-wrapper #info-wrapper #details-nutrition",
         (t) => t.map((s) => s.textContent)
       );
       const description = await page.$$eval(
         "#details-wrapper #info-wrapper #details-description p",
         (t) => t.map((s) => s.textContent)
       );
-
+        console.log(nutrition);
+        console.log(description);
       expect(name).to.contains(data.name);
       expect(nutrition[0]).to.contains(data.nutrition);
-      expect(description).to.contains(data.description);
+      expect(description[0]).to.contains(data.description);
     });
 
     it("Non-author does NOT see delete and edit buttons [ 2.5 Points ]", async () => {

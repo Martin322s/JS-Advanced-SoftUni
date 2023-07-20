@@ -8,7 +8,7 @@ const fruitTemplate = (fruit) => html`
         <p class="description">
             ${fruit.description}
         </p>
-            <a class="details-btn" href="/details/${fruit._id}">More Info</a>
+        <a class="details-btn" href="/details/${fruit._id}">More Info</a>
     </div>
 `;
 
