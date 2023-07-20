@@ -70,7 +70,7 @@ function submit(ev, ctx, fruitId) {
 
     if (!Object.values(data).some(x => x === '')) {
         editFruit(data, token, fruitId)
-            .then((newFruit) => console.log(newFruit));
+            .then((newFruit) => ctx.page.redirect(`/details/${newFruit._id}`));
     } else {
         alert('All fields are required!');
     }
