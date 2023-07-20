@@ -17,13 +17,12 @@ const detailsView = (fruit, userId) => html`
                         ${fruit.nutrition}
                     </p>
                 </div>
-                <!--Edit and Delete are only for creator-->
     ${fruit._ownerId === userId
         ?
         html`
             <div id="action-buttons">
-                <a href="" id="edit-btn">Edit</a>
-                <a href="" id="delete-btn">Delete</a>
+                <a href="/edit/${fruit._id}" id="edit-btn">Edit</a>
+                <a href="/delete/${fruit._id}" id="delete-btn">Delete</a>
             </div>
         `
         :
