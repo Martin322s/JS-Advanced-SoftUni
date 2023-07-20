@@ -14,3 +14,5 @@ export const createFruit = async (fruitData, token) => {
 
     return await res.json();
 };
+
+export const getOne = (fruitId) => fetch(`${baseUrl}/fruits/${fruitId}`).then(res => res.json());

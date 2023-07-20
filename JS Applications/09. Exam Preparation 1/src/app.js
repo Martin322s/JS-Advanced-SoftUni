@@ -6,6 +6,7 @@ import { renderCreate } from './views/createView.js';
 import { renderRegister } from './views/registerView.js';
 import { renderLogin } from './views/loginView.js';
 import { renderSearch } from './views/searchView.js';
+import { renderDetails } from './views/detailsView.js';
 import { logoutUser } from './services/authService.js';
 
 page(renderTemplate);
@@ -17,6 +18,7 @@ page('/register', renderRegister);
 page('/login', renderLogin);
 page('/logout', logout);
 page('/search', renderSearch);
+page('/details/:fruitId', renderDetails);
 
 page.start();
 
