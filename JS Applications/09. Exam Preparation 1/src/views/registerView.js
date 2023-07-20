@@ -1,10 +1,12 @@
 import { html } from '../../node_modules/lit-html/lit-html.js';
+import { registerUser } from '../services/authService.js';
+import { changeNav } from '../middlewares/middleware.js';
 
-const registerView = () => html`
+const registerView = (ctx) => html`
     <section id="register">
         <div class="form">
             <h2>Register</h2>
-            <form class="register-form">
+            <form class="register-form" @submit=${(ev) => submit(ev, ctx)}>
                 <input 
                     type="text" 
                     name="email" 
@@ -31,5 +33,30 @@ const registerView = () => html`
 `;
 
 export const renderRegister = (ctx) => {
-    ctx.mainRender(registerView());
+    ctx.mainRender(registerView(ctx));
 };
+
+function submit(ev, ctx) {
+    ev.preventDefault();
+
+    const formData = new FormData(ev.currentTarget);
+    const email = formData.get('email');
+    const password = formData.get('password');
+    const repassword = formData.get('re-password');
+
+
+    if (email !== '' && password !== '') {
+        if (password === repassword) {
+            registerUser({ email, password })
+                .then(user => {
+                    localStorage.setItem('user', JSON.stringify(user));
+                    ctx.page.redirect('/');
+                    changeNav();
+                });
+        } else {
+            alert('Passwords don\'t match!');
+        }
+    } else {
+        alert('All fields are required!');
+    }
+}

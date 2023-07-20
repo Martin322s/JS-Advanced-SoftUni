@@ -37,5 +37,7 @@ function submit(ev, ctx) {
                 ctx.page.redirect('/');
                 changeNav();
             });
+    } else {
+        alert('All fields are required!');
     }
 }
