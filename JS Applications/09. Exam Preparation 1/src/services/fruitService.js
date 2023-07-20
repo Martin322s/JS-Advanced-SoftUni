@@ -38,3 +38,7 @@ export const deleteFruit = async (token, fruitId) => {
         }
     });
 }
+
+export const searchFruit = (query) => 
+    fetch(`${baseUrl}/fruits?where=name%20LIKE%20%22${query}%22`)
+        .then(res => res.json());
