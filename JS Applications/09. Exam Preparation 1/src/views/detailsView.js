@@ -2,7 +2,7 @@ import { html } from '../../node_modules/lit-html/lit-html.js';
 import { getOne } from '../services/fruitService.js';
 
 
-const detailsView = (fruit) => html`
+const detailsView = (fruit, userId) => html`
     <section id="details">
         <div id="details-wrapper">
             <img id="details-img" src=${fruit.imageUrl} alt="example1" />
@@ -18,10 +18,17 @@ const detailsView = (fruit) => html`
                     </p>
                 </div>
                 <!--Edit and Delete are only for creator-->
-                <div id="action-buttons">
-                    <a href="" id="edit-btn">Edit</a>
-                    <a href="" id="delete-btn">Delete</a>
-                </div>
+    ${fruit._ownerId === userId
+        ?
+        html`
+            <div id="action-buttons">
+                <a href="" id="edit-btn">Edit</a>
+                <a href="" id="delete-btn">Delete</a>
+            </div>
+        `
+        :
+        null
+    }
             </div>
         </div>
     </section>
@@ -30,5 +37,6 @@ const detailsView = (fruit) => html`
 export const renderDetails = async (ctx) => {
     const fruitId = ctx.params.fruitId;
     const fruitData = await getOne(fruitId);
-    ctx.mainRender(detailsView(fruitData));
+    const userId = JSON.parse(localStorage.getItem('user'))._id;
+    ctx.mainRender(detailsView(fruitData, userId));
 };

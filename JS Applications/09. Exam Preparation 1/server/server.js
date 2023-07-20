@@ -1459,7 +1459,7 @@
         _ownerId: '847ec027-f659-4086-8032-5173e2f9c93a',
         name: 'Banana',
         imageUrl: '../../images/fruit 3.png',
-        description: 'A banana is an elongated, edible fruit – botanically a berry, produced by several kinds of large herbaceous flowering plants in the genus Musa.The fruit is variable in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in starchcovered with a rind, which may be green, yellow, red, purple, or brown when ripe. The fruits grow upward in clusters near the top of the plant.',
+        description: 'A banana is an elongated, edible fruit - botanically a berry, produced by several kinds of large herbaceous flowering plants in the genus Musa.The fruit is variable in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in starchcovered with a rind, which may be green, yellow, red, purple, or brown when ripe. The fruits grow upward in clusters near the top of the plant.',
         nutrition: 'One serving, or one medium ripe banana, provides about 110 calories, 0 gram fat, 1 gram protein, 28 grams carbohydrate, 15 grams sugar (naturally occurring), 3 grams fiber, and 450 mg potassium. ' ,
         _createdOn: 1617194295480,
       },
