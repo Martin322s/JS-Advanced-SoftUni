@@ -1,50 +1,36 @@
 import { html } from '../../node_modules/lit-html/lit-html.js';
+import { getAll } from '../services/fruitService.js';
 
-const dashboardView = () => html`
-    <h2>Fruits</h2>
-    <section id="dashboard">
-    <!-- Display a div with information about every post (if any)-->
-        <div class="fruit">
-            <img src="./images/fruit 1.png" alt="example1" />
-            <h3 class="title">Pineapple</h3>
-            <p class="description">
-                The pineapple is a tropical plant with an edible fruit.
-                It is the most economically significant plant in the family Bromeliaceae.The
-                pineapple is indigenous to South America. Pineapples grow as a small shrub, the individual 
-                flowers of the unpollinated plant fuse to form a multiple fruit. The plant is 
-                normally propagated from the offset produced at the top of the fruit,or 
-                from a side shoot, and typically matures within a year.
-            </p>
-            <a class="details-btn" href="">More Info</a>
-        </div>
-        <div class="fruit">
-            <img src="./images/fruit 2.png" alt="example1" />
-            <h3 class="title"> Kiwi</h3>
-            <p>
-                Kiwifruit (often shortened to kiwi in North American, British and continental European English)
-                or Chinese gooseberry is the edible berry of several species of woody vines.
-                The most common cultivar group of kiwifruit is oval, about the size of a large hen's egg. It has a thin, fuzzy, fibrous, tart but edible light brown
-                skin and light green or golden flesh with rows of tiny, black, edible seeds. The fruit has a soft
-                texture with a sweet and unique flavour.
-            </p>
-            <a class="details-btn" href="">More Info</a>
-        </div>
-        <div class="fruit">
-            <img src="./images/fruit 3.png" alt="example1" />
-            <h3 class="title">Banana</h3>
-            <p>A banana is an elongated, edible fruit - botanically a berry, produced by several kinds
-                of large herbaceous flowering plants in the genus Musa.The fruit is variable
-                in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in
-                starch covered with a rind, which may be green, yellow, red, purple, 
-                or brown when ripe. The fruits grow upward in clusters near the top of the plant.
-            </p>
-            <a class="details-btn" href="">More Info</a>
-        </div>
-    </section>
-    <!-- Display an h2 if there are no posts -->
-    <h2>No fruit info yet.</h2>
+const fruitTemplate = (fruit) => html`
+    <div class="fruit">
+        <img src="./images/fruit 1.png" alt="example1" />
+        <h3 class="title">Pineapple</h3>
+        <p class="description">
+            The pineapple is a tropical plant with an edible fruit.
+            It is the most economically significant plant in the family Bromeliaceae.The
+            pineapple is indigenous to South America. Pineapples grow as a small shrub, the individual 
+            flowers of the unpollinated plant fuse to form a multiple fruit. The plant is 
+            normally propagated from the offset produced at the top of the fruit,or 
+            from a side shoot, and typically matures within a year.
+        </p>
+        <a class="details-btn" href="">More Info</a>
+    </div>
 `;
 
-export const renderDashboard = (ctx) => {
-    ctx.mainRender(dashboardView());
+const dashboardView = (allFruits) => html`
+    <h2>Fruits</h2>
+    <section id="dashboard">
+    ${allFruits.length > 0
+        ?
+        allFruits.map(x => fruitTemplate(x))
+        :
+        html`<h2>No fruit info yet.</h2>`
+    }
+    </section>
+`;
+
+export const renderDashboard = async (ctx) => {
+    const allFruits = await getAll();
+    console.log(allFruits);
+    ctx.mainRender(dashboardView(allFruits));
 };
