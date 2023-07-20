@@ -16,3 +16,16 @@ export const createFruit = async (fruitData, token) => {
 };
 
 export const getOne = (fruitId) => fetch(`${baseUrl}/fruits/${fruitId}`).then(res => res.json());
+
+export const editFruit = async (data, token, fruitId) => {
+    const res = await fetch(`${baseUrl}/${fruitId}`, {
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-Authorization': token
+        },
+        body: JSON.stringify(data)
+    });
+
+    return await res.json();
+};

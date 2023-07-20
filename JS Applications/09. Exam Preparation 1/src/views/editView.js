@@ -1,11 +1,11 @@
 import { html } from '../../node_modules/lit-html/lit-html.js';
 import { getOne } from '../services/fruitService.js';
 
-const editView = (fruit) => html`
+const editView = (fruit, ctx) => html`
     <section id="edit">
         <div class="form">
             <h2>Edit Fruit</h2>
-            <form class="edit-form">
+            <form class="edit-form" @submit=${(ev) => submit(ev, ctx, fruit._id)}>
                 <input 
                     type="text" 
                     name="name" 
@@ -50,3 +50,7 @@ export const renderEdit = async (ctx) => {
     console.log(data);
     ctx.mainRender(editView(data));
 };
+
+function submit(ev, ctx, fruitId) {
+    ev.preventDefault();
+}
