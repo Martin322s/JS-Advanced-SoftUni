@@ -1442,7 +1442,7 @@
       '1840a313-225c-416a-817a-9954d4609f7c': {
         _ownerId: '35c62d76-8152-4626-8712-eeb96381bea8',
         name: 'Pineapple',
-        imageUrl: '/images/fruit 1.png',
+        imageUrl: '../../images/fruit 1.png',
         description: 'The pineapple is a tropical plant with an edible fruit.It is the most economically significant plant in the family Bromeliaceae.The pineapple is indigenous to South America.Pineapples grow as a small shrub, the individual flowers of the unpollinated plantfuse to form a multiple fruit. The plant is normally propagated from the offset produced at the top of the fruit,or from a side shoot, and typically matures within a year.',
         nutrition: 'Raw pineapple pulp is 86% water, 13% carbohydrates, 0.5% protein, and contains negligible fat (table).In a 100-gram reference amount, raw pineapple supplies 209 kilojoules (50 kilocalories) of food energy,and is a rich source of manganese (44% Daily Value, DV) and vitamin C (58% DV), but otherwise contains no micronutrients in significant amounts.' ,
         _createdOn: 1617194210928,
@@ -1450,7 +1450,7 @@
       '126777f5-3277-42ad-b874-76d043b069cb': {
         _ownerId: '847ec027-f659-4086-8032-5173e2f9c93a',
         name: 'Kiwi',
-        imageUrl: '/images/fruit 2.png',
+        imageUrl: '../../images/fruit 2.png',
         description: 'Kiwifruit (often shortened to kiwi in North American, British and continental European English)or Chinese gooseberry is the edible berry of several species of woody vines.The most common cultivar group of kiwifruit is oval,about the size of a large hen\'s egg. It has a thin, fuzzy, fibrous, tart but edible light brown skinand light green or golden flesh with rows of tiny, black, edible seeds. The fruit has a softtexture with a sweet and unique flavour.',
         nutrition: 'One medium-sized kiwi (75g) provides 42 calories, 0.1g of protein, 10.1g of carbohydrates, and 0.4g of fat. Kiwis are an excellent source of vitamin C, fiber, and also provide potassium, vitamin E, and folate.' ,
         _createdOn: 1617194295474,
@@ -1458,7 +1458,7 @@
       '136777f5-3277-42ad-b874-76d043b069cb': {
         _ownerId: '847ec027-f659-4086-8032-5173e2f9c93a',
         name: 'Banana',
-        imageUrl: '/images/fruit 3.png',
+        imageUrl: '../../images/fruit 3.png',
         description: 'A banana is an elongated, edible fruit – botanically a berry, produced by several kinds of large herbaceous flowering plants in the genus Musa.The fruit is variable in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in starchcovered with a rind, which may be green, yellow, red, purple, or brown when ripe. The fruits grow upward in clusters near the top of the plant.',
         nutrition: 'One serving, or one medium ripe banana, provides about 110 calories, 0 gram fat, 1 gram protein, 28 grams carbohydrate, 15 grams sugar (naturally occurring), 3 grams fiber, and 450 mg potassium. ' ,
         _createdOn: 1617194295480,
