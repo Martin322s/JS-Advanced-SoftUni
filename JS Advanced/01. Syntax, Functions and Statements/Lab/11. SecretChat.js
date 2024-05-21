@@ -30,7 +30,14 @@ function secretChat(input) {
                 }
             }
                 break;
-            
+            case 'InsertSpace': {
+                let index = Number(operation[1]);
+                let firstPart = concealedMessage.substring(0, index);
+                let secondPart = concealedMessage.substring(index);
+                concealedMessage = firstPart + ' ' + secondPart;
+                console.log(concealedMessage);
+            }
+                break;
         }
 
         command = input.shift();
