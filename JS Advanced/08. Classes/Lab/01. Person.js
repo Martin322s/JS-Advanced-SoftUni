@@ -9,4 +9,4 @@ class Person {
     toString() {
         return `${this.firstName} ${this.lastName} (age: ${this.age}, email: ${this.email})`;
     }
-};
+}
